@@ -96,7 +96,8 @@ nav button {
 }
 
 
-/* halfway through I tried to put all my edits together below here, for ease of grading */
+/* halfway through I tried to put all my edits together below here, for ease of grading, though maybe it's better practice to limit css declarations to one per element? */
+/* I used 20px for all the gaps, not sure if there's a different intended way */
 
 
 /* navbar flex */
@@ -128,7 +129,7 @@ nav {
 #trending {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   gap: 20px;
 }
@@ -143,3 +144,18 @@ nav {
 
 /* cards */
 
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  /* bring the card info in a bit */
+  margin: 0 5px; 
+}
