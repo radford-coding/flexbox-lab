@@ -11,9 +11,6 @@ body {
 nav {
     background-color: white;
     padding: 8px 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
   
 p {
@@ -98,6 +95,18 @@ nav button {
     padding: 6px 15px;
 }
 
+
+/* halfway through I tried to put all my edits together below here, for ease of grading */
+
+
+/* navbar flex */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #actions, #destinations {
   display: flex;
   flex-flow: row nowrap;
@@ -105,3 +114,32 @@ nav button {
   align-items: center;
   gap: 20px;
 }
+
+
+/* hero flex */
+
+#hero {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#trending {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+
+/* subnav */
+
+#subnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* cards */
+
